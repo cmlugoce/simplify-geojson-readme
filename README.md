@@ -2,9 +2,9 @@
 
 **To simplify geojson:**
 
-1. Validate data as a geojson
+1. Wrap json features into a “FeatureCollection” object
 
-2. Wrap json features into a “FeatureCollection” object
+2. Validate data as a geojson
     - [Mapshaper](https://mapshaper.org/)
     - [Geojson-validation library](https://www.npmjs.com/package/geojson-validation)
         i. It has a CLI tool to validate geojson. When the output is valid it will return with `valid`
@@ -59,7 +59,9 @@
       `tippecanoe -zg -o out.mbtiles --drop-densest-as-needed in.geojson`
       
       `out.mbtiles` is the output 
+      
       `in.geoson` is the file that you want to convert to tiles
+      
       `--drop-densest-as-needed` option will make Tippecanoe try dropping what should be the least visible features at each          zoom level (suggested when you aren't sure of what options to use)
       
    4. Files are ready to be uploaded on Mapbox Studio 
