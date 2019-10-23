@@ -11,7 +11,7 @@
         i. It has a CLI tool to validate geojson. After installation run `gjv file1` and it will return `valid` or a list of              errors.
         
  3. Trim geojson with [simplify-geojson](https://www.npmjs.com/package/simplify-geojson)
-   - It applies the  Ramer–Douglas–Peucker line simplification algorithm to GeoJSON features or feature collections in JS or        on the CLI.
+   - It applies the  [Ramer–Douglas–Peucker](https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm)  line simplification algorithm to GeoJSON features or feature collections in JS or        on the CLI.
    
       After installation: 
       
