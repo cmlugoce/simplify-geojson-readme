@@ -1,4 +1,4 @@
-# simplify-geojson-readme
+# simplified-geojson-readme
 
 **To simplify geojson:**
 
