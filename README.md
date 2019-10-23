@@ -5,9 +5,10 @@
 1. Wrap json features into a “FeatureCollection” object
 
 2. Validate data as a geojson
-    - [Mapshaper](https://mapshaper.org/)
+    - [Mapshaper](https://mapshaper.org/) 
+        i. Mapshaper is an interface for simplification and conversion of GeoJSON and TopoJSON
     - [Geojson-validation library](https://www.npmjs.com/package/geojson-validation)
-        i. It has a CLI tool to validate geojson. When the output is valid it will return with `valid`
+        i. It has a CLI tool to validate geojson. After installation run `gjv file1` and it will return `valid` or a list of              errors.
         
  3. Trim geojson with [simplify-geojson](https://www.npmjs.com/package/simplify-geojson)
    - It applies the  Ramer–Douglas–Peucker line simplification algorithm to GeoJSON features or feature collections in JS or        on the CLI.
