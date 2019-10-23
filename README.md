@@ -22,6 +22,8 @@
        
        `-t` indicates the tolerance 
        
+       *tolerance*: is a number in degrees (e.g. lat/lon distance). 1 degree is roughly equivalent to 69 miles. the default is         0.001, which is around a city block long.
+       
       **JS** 
       
       
