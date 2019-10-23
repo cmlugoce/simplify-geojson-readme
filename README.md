@@ -67,6 +67,8 @@
       
       `--drop-densest-as-needed` option will make Tippecanoe try dropping what should be the least visible features at each          zoom level (suggested when you aren't sure of what options to use)
       
+      You can find more options [here](https://github.com/mapbox/tippecanoe#options)
+      
    4. Files are ready to be uploaded on Mapbox Studio 
       
       
