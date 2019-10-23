@@ -11,6 +11,7 @@
         
  3. Trim geojson with [simplify-geojson](https://www.npmjs.com/package/simplify-geojson)
    - It applies the  Ramer–Douglas–Peucker line simplification algorithm to GeoJSON features or feature collections in JS or        on the CLI.
+   
       After installation: 
       
       **CLI**
@@ -32,18 +33,17 @@
       
      `geojson` can be any valid "Feature" or "FeatureCollection"
      
-     **To save the output**
+     To save the output
      
      
-     ```
-     const geojson = require('data.json')
-     const simplify = require('simplify-geojson')
-     const simplified = simplify(geojson, 0.01)
-     const fs = require('fs');
-
-     let data = JSON.stringify(simplified);
-     fs.writeFileSync('somedata.json', data);
-    ```
+   
+         const geojson = require('data.json')
+         const simplify = require('simplify-geojson')
+         const simplified = simplify(geojson, 0.01)
+         const fs = require('fs')
+         let data = JSON.stringify(simplified)
+         fs.writeFileSync('somedata.json', data)
+    
      
      
    4. Use again Mapshaper or the Geojson-validation library to confirm that the generated geojson is valid!
