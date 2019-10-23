@@ -74,6 +74,8 @@
       
    
    For more geojson tools and resources: https://github.com/tmcw/awesome-geojson
+   
+   Geojson standard: https://tools.ietf.org/html/rfc7946
     
 
 
