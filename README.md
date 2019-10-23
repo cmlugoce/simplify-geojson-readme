@@ -41,9 +41,9 @@
      const simplified = simplify(geojson, 0.01)
      const fs = require('fs');
 
-    let data = JSON.stringify(simplified);
-    fs.writeFileSync('somedata.json', data);
-     ```
+     let data = JSON.stringify(simplified);
+     fs.writeFileSync('somedata.json', data);
+    ```
      
      
    4. Use again Mapshaper or the Geojson-validation library to confirm that the generated geojson is valid!
