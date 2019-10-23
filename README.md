@@ -14,6 +14,7 @@
       After installation: 
       
       **CLI**
+      
        `cd` into the directory with the geojson or json data
       
        `cat data.geojson | simplify-geojson -t 0.01`
@@ -21,6 +22,7 @@
        `-t` indicates the tolerance 
        
       **JS** 
+      
       
      ``` 
        const simplify = require('simplify-geojson')
@@ -30,7 +32,9 @@
       
      `geojson` can be any valid "Feature" or "FeatureCollection"
      
-     ***To save the output**
+     **To save the output**
+     
+     
      ```
      const geojson = require('data.json')
      const simplify = require('simplify-geojson')
